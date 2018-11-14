@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04E69AD02175D21100EADFEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E69ACF2175D21100EADFEA /* AppDelegate.m */; };
+		04E69AD32175D21100EADFEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E69AD22175D21100EADFEA /* ViewController.m */; };
+		04E69AD62175D21100EADFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E69AD42175D21100EADFEA /* Main.storyboard */; };
+		04E69AD92175D21100EADFEA /* HZGestureLock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E69AD72175D21100EADFEA /* HZGestureLock.xcdatamodeld */; };
+		04E69ADB2175D21300EADFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E69ADA2175D21300EADFEA /* Assets.xcassets */; };
+		04E69ADE2175D21300EADFEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E69ADC2175D21300EADFEA /* LaunchScreen.storyboard */; };
+		04E69AE12175D21300EADFEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E69AE02175D21300EADFEA /* main.m */; };
+		04E69AE92175D2B700EADFEA /* HZGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E69AE82175D2B700EADFEA /* HZGestureLockView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04E69ACB2175D21100EADFEA /* HZGestureLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZGestureLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E69ACE2175D21100EADFEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E69ACF2175D21100EADFEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E69AD12175D21100EADFEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E69AD22175D21100EADFEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04E69AD52175D21100EADFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E69AD82175D21100EADFEA /* HZGestureLock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HZGestureLock.xcdatamodel; sourceTree = "<group>"; };
+		04E69ADA2175D21300EADFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E69ADD2175D21300EADFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E69ADF2175D21300EADFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E69AE02175D21300EADFEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04E69AE72175D2B700EADFEA /* HZGestureLockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZGestureLockView.h; sourceTree = "<group>"; };
+		04E69AE82175D2B700EADFEA /* HZGestureLockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZGestureLockView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E69AC82175D21100EADFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04E69AC22175D21100EADFEA = {
+			isa = PBXGroup;
+			children = (
+				04E69ACD2175D21100EADFEA /* HZGestureLock */,
+				04E69ACC2175D21100EADFEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E69ACC2175D21100EADFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E69ACB2175D21100EADFEA /* HZGestureLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E69ACD2175D21100EADFEA /* HZGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				04E69ACE2175D21100EADFEA /* AppDelegate.h */,
+				04E69ACF2175D21100EADFEA /* AppDelegate.m */,
+				04E69AD12175D21100EADFEA /* ViewController.h */,
+				04E69AD22175D21100EADFEA /* ViewController.m */,
+				04E69AE72175D2B700EADFEA /* HZGestureLockView.h */,
+				04E69AE82175D2B700EADFEA /* HZGestureLockView.m */,
+				04E69AD42175D21100EADFEA /* Main.storyboard */,
+				04E69ADA2175D21300EADFEA /* Assets.xcassets */,
+				04E69ADC2175D21300EADFEA /* LaunchScreen.storyboard */,
+				04E69ADF2175D21300EADFEA /* Info.plist */,
+				04E69AE02175D21300EADFEA /* main.m */,
+				04E69AD72175D21100EADFEA /* HZGestureLock.xcdatamodeld */,
+			);
+			path = HZGestureLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E69ACA2175D21100EADFEA /* HZGestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E69AE42175D21300EADFEA /* Build configuration list for PBXNativeTarget "HZGestureLock" */;
+			buildPhases = (
+				04E69AC72175D21100EADFEA /* Sources */,
+				04E69AC82175D21100EADFEA /* Frameworks */,
+				04E69AC92175D21100EADFEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZGestureLock;
+			productName = HZGestureLock;
+			productReference = 04E69ACB2175D21100EADFEA /* HZGestureLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E69AC32175D21100EADFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04E69ACA2175D21100EADFEA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 04E69AC62175D21100EADFEA /* Build configuration list for PBXProject "HZGestureLock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E69AC22175D21100EADFEA;
+			productRefGroup = 04E69ACC2175D21100EADFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E69ACA2175D21100EADFEA /* HZGestureLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E69AC92175D21100EADFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E69ADE2175D21300EADFEA /* LaunchScreen.storyboard in Resources */,
+				04E69ADB2175D21300EADFEA /* Assets.xcassets in Resources */,
+				04E69AD62175D21100EADFEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E69AC72175D21100EADFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E69AD32175D21100EADFEA /* ViewController.m in Sources */,
+				04E69AE92175D2B700EADFEA /* HZGestureLockView.m in Sources */,
+				04E69AD02175D21100EADFEA /* AppDelegate.m in Sources */,
+				04E69AE12175D21300EADFEA /* main.m in Sources */,
+				04E69AD92175D21100EADFEA /* HZGestureLock.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E69AD42175D21100EADFEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E69AD52175D21100EADFEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E69ADC2175D21300EADFEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E69ADD2175D21300EADFEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E69AE22175D21300EADFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E69AE32175D21300EADFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E69AE52175D21300EADFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVPC95HAL8;
+				INFOPLIST_FILE = HZGestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lutongnet.HZGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E69AE62175D21300EADFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVPC95HAL8;
+				INFOPLIST_FILE = HZGestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lutongnet.HZGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E69AC62175D21100EADFEA /* Build configuration list for PBXProject "HZGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E69AE22175D21300EADFEA /* Debug */,
+				04E69AE32175D21300EADFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E69AE42175D21300EADFEA /* Build configuration list for PBXNativeTarget "HZGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E69AE52175D21300EADFEA /* Debug */,
+				04E69AE62175D21300EADFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04E69AD72175D21100EADFEA /* HZGestureLock.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04E69AD82175D21100EADFEA /* HZGestureLock.xcdatamodel */,
+			);
+			currentVersion = 04E69AD82175D21100EADFEA /* HZGestureLock.xcdatamodel */;
+			path = HZGestureLock.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04E69AC32175D21100EADFEA /* Project object */;
+}
