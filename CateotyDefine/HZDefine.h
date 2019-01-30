@@ -17,7 +17,8 @@
 #define Hstatusbar  CGRectGetHeight([UIApplication sharedApplication].statusBarFrame)
 // 判断是不是刘海屏  xs 414 896  x 414 812  xr 414 896
 #define IphoneX     (CGRectGetHeight([UIApplication sharedApplication].statusBarFrame) == 44)
-// 导航栏的高度
+// 导航栏的高度 目前只有这两种规格不代表以后不出现新的规格
+#define HNavgationBar  (IphoneX?88.f:64.f)
 
 //16进制颜色
 #define kCOLOR_RGBValue(RGBValue)   [UIColor colorWithRed:((float)((RGBValue & 0xFF0000) >> 16))/255.0 \
@@ -37,9 +38,9 @@ alpha:a]
 
 #ifdef __OBJC__
 #ifdef DEBUG
-#   define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else
-#   define NSLog(...)
+#define NSLog(...)
 #endif
 #endif
 

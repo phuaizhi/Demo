@@ -77,8 +77,8 @@ static GCDAsyncUdpSocket * _udp;
         ikcp_nodelay(_kcp, 1, 10, 2, 1);
         _kcp->rx_minrto = 10;
         ikcp_wndsize(_kcp, 128, 128);
-        ikcp_setmtu(_kcp, 512);
-        NSTimer * timer = [NSTimer scheduledTimerWithTimeInterval:0.0001f
+//        ikcp_setmtu(_kcp, 512);
+        NSTimer * timer = [NSTimer scheduledTimerWithTimeInterval:0.01f
                                                            target:self
                                                          selector:@selector(timerFire:)
                                                          userInfo:nil
