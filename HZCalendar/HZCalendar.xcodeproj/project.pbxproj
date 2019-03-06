@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0464D2D0222E69FC00A6B2EA /* NSDate+HZCalendarMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464D2CF222E69FC00A6B2EA /* NSDate+HZCalendarMethod.m */; };
+		0464D2D3222E6E6E00A6B2EA /* HZCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464D2D2222E6E6E00A6B2EA /* HZCalendarModel.m */; };
+		0464D2D7222E72C400A6B2EA /* HZCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464D2D5222E72C400A6B2EA /* HZCalendarCell.m */; };
+		0464D2D8222E72C400A6B2EA /* HZCalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0464D2D6222E72C400A6B2EA /* HZCalendarCell.xib */; };
+		046C81EF222CD05A00946C44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C81EE222CD05A00946C44 /* AppDelegate.m */; };
+		046C81F2222CD05A00946C44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C81F1222CD05A00946C44 /* ViewController.m */; };
+		046C81F5222CD05A00946C44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046C81F3222CD05A00946C44 /* Main.storyboard */; };
+		046C81F8222CD05A00946C44 /* HZCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 046C81F6222CD05A00946C44 /* HZCalendar.xcdatamodeld */; };
+		046C81FA222CD05C00946C44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046C81F9222CD05C00946C44 /* Assets.xcassets */; };
+		046C81FD222CD05C00946C44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046C81FB222CD05C00946C44 /* LaunchScreen.storyboard */; };
+		046C8200222CD05C00946C44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046C81FF222CD05C00946C44 /* main.m */; };
+		04BCE184222E213A00D4A2B5 /* HZCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCE183222E213A00D4A2B5 /* HZCalendarView.m */; };
+		04BCE187222E230300D4A2B5 /* HZCalendarWeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCE186222E230300D4A2B5 /* HZCalendarWeekView.m */; };
+		04BCE18B222E24BF00D4A2B5 /* UIView+HZFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCE18A222E24BF00D4A2B5 /* UIView+HZFrame.m */; };
+		04BCE18E222E4DD700D4A2B5 /* HZCalendarTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCE18D222E4DD700D4A2B5 /* HZCalendarTitleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0464D2CE222E69FC00A6B2EA /* NSDate+HZCalendarMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+HZCalendarMethod.h"; sourceTree = "<group>"; };
+		0464D2CF222E69FC00A6B2EA /* NSDate+HZCalendarMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HZCalendarMethod.m"; sourceTree = "<group>"; };
+		0464D2D1222E6E6E00A6B2EA /* HZCalendarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZCalendarModel.h; sourceTree = "<group>"; };
+		0464D2D2222E6E6E00A6B2EA /* HZCalendarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCalendarModel.m; sourceTree = "<group>"; };
+		0464D2D4222E72C400A6B2EA /* HZCalendarCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZCalendarCell.h; sourceTree = "<group>"; };
+		0464D2D5222E72C400A6B2EA /* HZCalendarCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCalendarCell.m; sourceTree = "<group>"; };
+		0464D2D6222E72C400A6B2EA /* HZCalendarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HZCalendarCell.xib; sourceTree = "<group>"; };
+		046C81EA222CD05A00946C44 /* HZCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HZCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046C81ED222CD05A00946C44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046C81EE222CD05A00946C44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046C81F0222CD05A00946C44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046C81F1222CD05A00946C44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046C81F4222CD05A00946C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046C81F7222CD05A00946C44 /* HZCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HZCalendar.xcdatamodel; sourceTree = "<group>"; };
+		046C81F9222CD05C00946C44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046C81FC222CD05C00946C44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046C81FE222CD05C00946C44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046C81FF222CD05C00946C44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BCE182222E213A00D4A2B5 /* HZCalendarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZCalendarView.h; sourceTree = "<group>"; };
+		04BCE183222E213A00D4A2B5 /* HZCalendarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCalendarView.m; sourceTree = "<group>"; };
+		04BCE185222E230300D4A2B5 /* HZCalendarWeekView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZCalendarWeekView.h; sourceTree = "<group>"; };
+		04BCE186222E230300D4A2B5 /* HZCalendarWeekView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCalendarWeekView.m; sourceTree = "<group>"; };
+		04BCE189222E24BE00D4A2B5 /* UIView+HZFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HZFrame.h"; sourceTree = "<group>"; };
+		04BCE18A222E24BF00D4A2B5 /* UIView+HZFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HZFrame.m"; sourceTree = "<group>"; };
+		04BCE18C222E4DD700D4A2B5 /* HZCalendarTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HZCalendarTitleView.h; sourceTree = "<group>"; };
+		04BCE18D222E4DD700D4A2B5 /* HZCalendarTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZCalendarTitleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046C81E7222CD05A00946C44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046C81E1222CD05A00946C44 = {
+			isa = PBXGroup;
+			children = (
+				046C81EC222CD05A00946C44 /* HZCalendar */,
+				046C81EB222CD05A00946C44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046C81EB222CD05A00946C44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046C81EA222CD05A00946C44 /* HZCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046C81EC222CD05A00946C44 /* HZCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				046C81ED222CD05A00946C44 /* AppDelegate.h */,
+				046C81EE222CD05A00946C44 /* AppDelegate.m */,
+				046C81F0222CD05A00946C44 /* ViewController.h */,
+				046C81F1222CD05A00946C44 /* ViewController.m */,
+				04BCE17F222E192800D4A2B5 /* HZCalendar */,
+				046C81F3222CD05A00946C44 /* Main.storyboard */,
+				046C81F9222CD05C00946C44 /* Assets.xcassets */,
+				046C81FB222CD05C00946C44 /* LaunchScreen.storyboard */,
+				046C81FE222CD05C00946C44 /* Info.plist */,
+				046C81FF222CD05C00946C44 /* main.m */,
+				046C81F6222CD05A00946C44 /* HZCalendar.xcdatamodeld */,
+			);
+			path = HZCalendar;
+			sourceTree = "<group>";
+		};
+		04BCE17F222E192800D4A2B5 /* HZCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				04BCE188222E249200D4A2B5 /* Cateory */,
+				04BCE180222E192800D4A2B5 /* Model */,
+				04BCE181222E192800D4A2B5 /* View */,
+			);
+			path = HZCalendar;
+			sourceTree = "<group>";
+		};
+		04BCE180222E192800D4A2B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0464D2D1222E6E6E00A6B2EA /* HZCalendarModel.h */,
+				0464D2D2222E6E6E00A6B2EA /* HZCalendarModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04BCE181222E192800D4A2B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04BCE182222E213A00D4A2B5 /* HZCalendarView.h */,
+				04BCE183222E213A00D4A2B5 /* HZCalendarView.m */,
+				04BCE185222E230300D4A2B5 /* HZCalendarWeekView.h */,
+				04BCE186222E230300D4A2B5 /* HZCalendarWeekView.m */,
+				04BCE18C222E4DD700D4A2B5 /* HZCalendarTitleView.h */,
+				04BCE18D222E4DD700D4A2B5 /* HZCalendarTitleView.m */,
+				0464D2D4222E72C400A6B2EA /* HZCalendarCell.h */,
+				0464D2D5222E72C400A6B2EA /* HZCalendarCell.m */,
+				0464D2D6222E72C400A6B2EA /* HZCalendarCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BCE188222E249200D4A2B5 /* Cateory */ = {
+			isa = PBXGroup;
+			children = (
+				04BCE189222E24BE00D4A2B5 /* UIView+HZFrame.h */,
+				04BCE18A222E24BF00D4A2B5 /* UIView+HZFrame.m */,
+				0464D2CE222E69FC00A6B2EA /* NSDate+HZCalendarMethod.h */,
+				0464D2CF222E69FC00A6B2EA /* NSDate+HZCalendarMethod.m */,
+			);
+			path = Cateory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046C81E9222CD05A00946C44 /* HZCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046C8203222CD05C00946C44 /* Build configuration list for PBXNativeTarget "HZCalendar" */;
+			buildPhases = (
+				046C81E6222CD05A00946C44 /* Sources */,
+				046C81E7222CD05A00946C44 /* Frameworks */,
+				046C81E8222CD05A00946C44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HZCalendar;
+			productName = HZCalendar;
+			productReference = 046C81EA222CD05A00946C44 /* HZCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046C81E2222CD05A00946C44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					046C81E9222CD05A00946C44 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 046C81E5222CD05A00946C44 /* Build configuration list for PBXProject "HZCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046C81E1222CD05A00946C44;
+			productRefGroup = 046C81EB222CD05A00946C44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046C81E9222CD05A00946C44 /* HZCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046C81E8222CD05A00946C44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046C81FD222CD05C00946C44 /* LaunchScreen.storyboard in Resources */,
+				046C81FA222CD05C00946C44 /* Assets.xcassets in Resources */,
+				046C81F5222CD05A00946C44 /* Main.storyboard in Resources */,
+				0464D2D8222E72C400A6B2EA /* HZCalendarCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046C81E6222CD05A00946C44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0464D2D0222E69FC00A6B2EA /* NSDate+HZCalendarMethod.m in Sources */,
+				046C81F2222CD05A00946C44 /* ViewController.m in Sources */,
+				04BCE18E222E4DD700D4A2B5 /* HZCalendarTitleView.m in Sources */,
+				0464D2D7222E72C400A6B2EA /* HZCalendarCell.m in Sources */,
+				046C81EF222CD05A00946C44 /* AppDelegate.m in Sources */,
+				04BCE187222E230300D4A2B5 /* HZCalendarWeekView.m in Sources */,
+				0464D2D3222E6E6E00A6B2EA /* HZCalendarModel.m in Sources */,
+				046C8200222CD05C00946C44 /* main.m in Sources */,
+				04BCE18B222E24BF00D4A2B5 /* UIView+HZFrame.m in Sources */,
+				046C81F8222CD05A00946C44 /* HZCalendar.xcdatamodeld in Sources */,
+				04BCE184222E213A00D4A2B5 /* HZCalendarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046C81F3222CD05A00946C44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046C81F4222CD05A00946C44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046C81FB222CD05C00946C44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046C81FC222CD05C00946C44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046C8201222CD05C00946C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046C8202222CD05C00946C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046C8204222CD05C00946C44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVPC95HAL8;
+				INFOPLIST_FILE = HZCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lutongnet.HZCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046C8205222CD05C00946C44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVPC95HAL8;
+				INFOPLIST_FILE = HZCalendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lutongnet.HZCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046C81E5222CD05A00946C44 /* Build configuration list for PBXProject "HZCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C8201222CD05C00946C44 /* Debug */,
+				046C8202222CD05C00946C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046C8203222CD05C00946C44 /* Build configuration list for PBXNativeTarget "HZCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046C8204222CD05C00946C44 /* Debug */,
+				046C8205222CD05C00946C44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		046C81F6222CD05A00946C44 /* HZCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				046C81F7222CD05A00946C44 /* HZCalendar.xcdatamodel */,
+			);
+			currentVersion = 046C81F7222CD05A00946C44 /* HZCalendar.xcdatamodel */;
+			path = HZCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 046C81E2222CD05A00946C44 /* Project object */;
+}
